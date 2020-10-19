@@ -107,7 +107,8 @@ body {
 }
 
 .nvarnavigation {
-  position: absolute;
+  width: 100%;
+  position: fixed;
   top: 0;
 }
 
@@ -121,6 +122,16 @@ body {
 @media (min-width: 768px) and (max-width: 992px) {
   #img-logo-Dmi5 {
     width: 200px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1140px) {
+  #img-logo-Dmi5 {
+    width: 250px;
+  }
+}
+@media (min-width: 1141px) {
+  #img-logo-Dmi5 {
+    width: 270px;
   }
 }
 
